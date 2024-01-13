@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "React Native Boilerplate",
+    "slug": "React Native Boilerplate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/ems-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#120216"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.reactnativeboilerplate"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ems-icon.png",
+        "backgroundColor": "#120216"
+      },
+      "package": "com.anonymous.ems"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": ["@config-plugins/detox", "expo-router"]
+  }
+}
